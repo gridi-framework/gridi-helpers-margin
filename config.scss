@@ -1,0 +1,32 @@
+$gridi-helpers-margin-classes: (
+    margin-big: (
+        top: 60px,
+        bottom: 60px,
+        left: 0,
+        right: 0,
+        for-screens: (
+            s5: (
+                top: 100px,
+                bottom: 100px,
+                left: 0,
+                right: 0
+            )
+        )
+    ),
+    margin-big-top: (
+        top: 60px,
+        for-screens: (
+            s5: (
+                top: 100px,
+            )
+        )
+    ),
+    margin-big-bottom: (
+        bottom: 60px,
+        for-screens: (
+            s5: (
+                bottom: 100px,
+            )
+        )
+    )
+) !default;
